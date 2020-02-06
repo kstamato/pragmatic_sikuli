@@ -1,0 +1,24 @@
+{
+    "python.linting.pylintEnabled": true,
+    "python.linting.flake8Enabled": false,
+    "python.linting.enabled": true,
+    "editor.tokenColorCustomizations":{
+        "[PowerShell ISE]": {
+            "keywords": "#FF0000",
+            "textMateRules": [{
+                "scope": "keyword.operator",
+                "settings": {
+                    "foreground": "#000000"
+                }
+            }]
+        }
+    },
+    "editor.mouseWheelZoom": true,
+    "editor.fontSize": 12,
+    "editor.renderWhitespace": "all",
+    "python.autoComplete.extraPaths": [
+        "Tests",
+        "Tests/_lib.sikuli",
+        "Tests/_uimap.sikuli"
+    ],
+}

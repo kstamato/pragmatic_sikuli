@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite name="SmokeTests Report" tests="1" errors="1" failures="0" time="0:00:00.082000"><testcase classname="SmokeTests" name="test_100_Start_Browser" time="0.078"><system-out><![CDATA[
+XXXXXXXXX Test 1111 started XXXXXXXXX
+]]></system-out><error type="exceptions.TypeError"><![CDATA[Traceback (most recent call last):
+  File "/Applications/SikuliX.app/Contents/Java/sikulix.jar/Lib/unittest/case.py", line 332, in run
+    testMethod()
+  File "/Users/kstamato/Desktop/Demos_Pragmatic/mini_framework/Tests/smoke_tests.sikuli/smoke_tests.py", line 9, in test_100_Start_Browser
+    Browser.Start()
+TypeError: Start() takes exactly 2 arguments (1 given)]]></error></testcase><system-out><![CDATA[]]></system-out><system-err><![CDATA[]]></system-err></testsuite>
